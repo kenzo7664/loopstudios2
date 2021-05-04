@@ -346,17 +346,17 @@
   }
   @media only screen and (min-width: 481px) and (max-width:720px) {
    
-    header{
-      background-image:url(../images/mobile/image-hero.jpg);
-      background-color:  hsl(0, 0%, 100%);
+    header {
+      background-image: url(../images/mobile/image-hero.jpg);
+      background-color: hsl(0, 0%, 100%);
       background-repeat: no-repeat;
       font-weight: 400;
       font-family: 'Alata', sans-serif;
       color: white;
       width: 184%;
-      background-size: 100%;
-      height: 117vh
-      }
+      background-size: cover;
+      height: 238vh;
+    }
       body{
         font-family: 'Josefin Sans', sans-serif;;
         font-weight: 300;
@@ -365,19 +365,21 @@
         content: url(../images/icon-hamburger.svg);
         width: 7%;
       }
-      .word{
+      .word {
         border: 3px solid white;
         font-size: 6rem;
         margin-left: 5%;
         margin-right: 24%;
         padding-left: 2%;
         padding-right: 2%;
+        margin-top: 60%;
       }
-      .part1{
+      .part1 {
         display: flex;
         flex-direction: column;
-        margin-left: 7%;
-      }
+        margin-left: 15%;
+        width: 78%;
+    }
       .image-int{
         width: 200%;
         content: url(../images/mobile/image-interactive.jpg);
@@ -395,14 +397,18 @@
         margin-left: 32%;
         margin-right: -16%;
       }
-    .sub-text1{
+      .sub-text1 {
         border: 1px solid white;
         text-align: center;
         margin-left: 41%;
         margin-right: -14%;
         padding-left: 0%;
         padding-right: 0%;
-        font-size: 26px;
+        font-size: 30px;
+      }
+      .text2{
+        margin-left: -4%;
+        margin-right: -7%;
       }
       .head{
         margin-top: 2%;
@@ -586,29 +592,51 @@
         display: flex;
         flex-direction: column;
       }
-      .footer_links{
+      .footer_links {
         display: flex;
-      justify-content: center;
-      flex-direction: column;
-      position: relative; 
-      line-height: 3rem;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        line-height: 3rem;
+        font-size: 40px;
       }
       .log{
         margin-left: 41%;
       }
-      .footerlink{
-        margin-left: 43%;
-        font-size: 27px;
+      .footerlink1 {
+        list-style: none;
+        margin-left: 42%;
+        margin-right: 2%;
       }
-      .icons{
+      .footerlink2 {
+        list-style: none;
+        margin-right: 2%;
+        margin-left: 41%;
+      }
+      .footerlink3 {
+        list-style: none;
+        margin-right: 2%;
+        margin-left: 42%;
+      }
+      .footerlink4 {
+        list-style: none;
+        margin-right: 2%;
+        margin-left: 41%;
+      }
+      .footerlink5 {
+        list-style: none;
+        margin-right: 2%;
+        margin-left: 41%;
+      }
+      .icons {
         margin-top: 0%;
         margin-left: 0%;
-        margin-right: 35%;
-        font-size: 2rem;
+        margin-right: 32%;
+        font-size: 65px;
       }
       .copyright{
         margin-left: 0%;
-        font-size: 22px;
+        font-size: 29px;
         margin-top: 1%;
         margin-right: 16%; 
       } 
@@ -616,16 +644,17 @@
   }
   @media only screen and (min-width: 721px) and (max-width:1024px) {
 
-    header{
-      background-image:url(../images/mobile/image-hero.jpg);
-      background-color:  hsl(0, 0%, 100%);
+    header {
+      background-image: url(../images/mobile/image-hero.jpg);
+      background-color: hsl(0, 0%, 100%);
       background-repeat: no-repeat;
       font-weight: 400;
       font-family: 'Alata', sans-serif;
       color: white;
       width: 184%;
-      background-size: 100%;
-      height: 80vh
+      background-size: cover;
+      height: 372vh;
+      width: 184%;
       }
       body{
         font-family: 'Josefin Sans', sans-serif;;
@@ -635,14 +664,16 @@
         content: url(../images/icon-hamburger.svg);
         width: 7%;
       }
-      .word{
+      .word {
         border: 3px solid white;
-        font-size: 7rem;
+        font-size: 179px;
         margin-left: 5%;
-        margin-right: 35%;
+        margin-right: 1%;
         padding-left: 2%;
         padding-right: 2%;
-      }
+        /* margin-top: 93%; */
+        margin: 92rem 4rem 87rem 3rem;
+       }
       .part1{
         display: flex;
         flex-direction: column;
@@ -667,13 +698,14 @@
         margin-right: -16%;
         font-size: 59px;
       }
-      .text2{
-        margin-left: 79%;
-        margin-right: -55%;
+      .text2 {
+        margin-left: -15%;
+        margin-right: -57%;
         font-size: 52px;
         margin-bottom: 10%;
-      }
-    .sub-text1{
+        text-align: center;
+       }
+      .sub-text1{
         border: 1px solid white;
         text-align: center;
         margin-left: 40%;
@@ -682,11 +714,12 @@
         padding-right: 0%;
         font-size: 47px;
       }
-      head {
-        margin-top: 2%;
-        margin-left: 0%;
-        margin-right: 13%;
-        text-align: center;
+      .head {
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 80%;
+        margin-right: 82%;
       }
       .pictures1{
         display: flex;
@@ -844,7 +877,7 @@
         margin-top: 11%;
         display: none;
       }
-    .button2{
+     .button2{
       padding-left: 18px;
       margin-bottom: 6%;
       box-shadow: 2px 2px 2px 1px #00000054;
@@ -856,7 +889,7 @@
       }
       footer{
         background-color: hsl(0, 0%, 0%);
-        height:56vh;
+        height:93vh;
         color: #ffffff;
         width: 184vw;
       }
@@ -870,25 +903,52 @@
       flex-direction: column;
       /* position: relative; */
       line-height: 3rem;
+      font-size: 77px;
+      }
+      .footerlink1 {
+        list-style: none;
+        margin-left: 39%;
+        margin-right: 2%;
+      }
+      .footerlink2 {
+        list-style: none;
+        margin-left: 36%;
+        margin-top: 3%;
+      }
+      .footerlink3 {
+        list-style: none;
+        margin-left: 38%;
+        margin-top: 3%;
+      }
+      .footerlink4 {
+        list-style: none;
+        margin-left: 35%;
+        margin-top: 3%;
+      }
+      .footerlink5 {
+        list-style: none;
+        margin-left: 36%;
+        margin-top: 3%;
       }
       .log{
-        margin-left: 43%;
+        margin-left: 35%;
+        width: 31%;
       }
       .footerlink{
         margin-left: 44%;
         font-size: 27px;
       }
-      .icons{
+      .icons {
         margin-top: 0%;
         margin-left: 0%;
-        margin-right: 35%;
-        font-size: 2rem;
+        margin-right: 40%;
+        font-size: 5rem;
       }
-      .copyright{
+      .copyright {
         margin-left: 0%;
-        font-size: 22px;
+        font-size: 48px;
         margin-top: 1%;
-        margin-right: 16%;
+        margin-right: 18%;
       }
     
   }
